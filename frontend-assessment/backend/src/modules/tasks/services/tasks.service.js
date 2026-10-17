@@ -7,7 +7,7 @@ const HttpError = require('../../../utils/httpError');
 const {
   validateCreateTask,
   validateUpdateTask,
-} = require('../../../utils/taskValidator');
+} = require('../utils/taskValidator');
 
 const TASKS_FILE_PATH = path.join(process.cwd(), 'data', 'tasks.json');
 
